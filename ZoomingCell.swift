@@ -40,7 +40,7 @@ class ZoomingCell: UIViewController, UICollectionViewDelegate, UICollectionViewD
             
           //  self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
         }
         
         let layOut : UICollectionViewFlowLayout = UICollectionViewFlowLayout();

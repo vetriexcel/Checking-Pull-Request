@@ -26,7 +26,7 @@ class MapviewViewController: UIViewController {
             menuBtn.action = #selector(SWRevealViewController.revealToggle(_:));
             
            // self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
         }
     }
 

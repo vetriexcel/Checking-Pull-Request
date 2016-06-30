@@ -29,7 +29,7 @@ class thirdClass: UIViewController, UITableViewDelegate, UITableViewDataSource {
             
            // self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
             let selectedIndexvalue = UILabel(frame: CGRectMake(20,50,300,40));
             selectedIndexvalue.center = CGPointMake(160, 284);

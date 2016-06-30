@@ -26,7 +26,7 @@ class webviewViewController: UIViewController, UIWebViewDelegate {
             
            // self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
         }
         
         let url = NSURL(string: "www.apple.com");
