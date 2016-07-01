@@ -38,6 +38,8 @@ class ZoomingCell: UIViewController, UICollectionViewDelegate, UICollectionViewD
             menuBtn.target = self.revealViewController();
             menuBtn.action = #selector(SWRevealViewController.revealToggle(_:));
             
+            self.revealViewController().panGestureRecognizer().enabled = false;
+
           //  self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
             //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());

@@ -112,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kbu-nZ-y5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2077" y="-32"/>
+            <point key="canvasLocation" x="2609" y="-32"/>
         </scene>
         <!--Second Page-->
         <scene sceneID="hS7-eA-Vso">
@@ -175,7 +175,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1AC-EZ-7r2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1561" y="620"/>
+            <point key="canvasLocation" x="2093" y="620"/>
         </scene>
         <!--Menu List-->
         <scene sceneID="XJN-RG-MZO">
@@ -209,6 +209,7 @@
                         <segue destination="NY4-5d-WLu" kind="custom" identifier="webView" customClass="SWRevealViewControllerSeguePushController" id="yLw-Uy-B3m"/>
                         <segue destination="YgX-iX-Dm5" kind="custom" identifier="mapView" customClass="SWRevealViewControllerSeguePushController" id="cB6-Jr-Lhc"/>
                         <segue destination="kXR-dS-9xJ" kind="custom" identifier="ZoomCells" customClass="SWRevealViewControllerSeguePushController" id="Rte-jY-Pa9"/>
+                        <segue destination="ons-nA-8hH" kind="custom" identifier="FileUpload" customClass="SWRevealViewControllerSeguePushController" id="Cgg-bn-Rgk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5WT-LH-NaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -286,7 +287,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6Y-Uo-dv6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1627" y="120"/>
+            <point key="canvasLocation" x="2159" y="120"/>
         </scene>
         <!--Mapview-->
         <scene sceneID="iNy-kV-KkP">
@@ -327,7 +328,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ELU-r7-SOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="229" y="666"/>
+            <point key="canvasLocation" x="761" y="666"/>
         </scene>
         <!--Webview-->
         <scene sceneID="fj9-XM-wCq">
@@ -394,7 +395,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPz-cZ-jnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5" y="172"/>
+            <point key="canvasLocation" x="537" y="172"/>
         </scene>
         <!--Zooming cells-->
         <scene sceneID="M9I-IF-N3h">
@@ -416,7 +417,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="htG-o9-Ywm">
-                                        <rect key="frame" x="0.0" y="64" width="78" height="81"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="78" height="81"/>
@@ -451,7 +452,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WB9-FI-6m3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1261" y="144"/>
+            <point key="canvasLocation" x="-325" y="216"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TKi-ui-v6O">
@@ -469,7 +470,38 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NHu-cU-EOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-403" y="120"/>
+            <point key="canvasLocation" x="129" y="120"/>
+        </scene>
+        <!--File Upload-->
+        <scene sceneID="kOL-QY-EhQ">
+            <objects>
+                <viewController id="J6y-Os-fHK" customClass="FileUploadViewController" customModule="autoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Plb-0S-0bL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Kjk-9A-dCw">
+                                <rect key="frame" x="20" y="114" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <state key="normal" title="Click To Upload"/>
+                                <connections>
+                                    <action selector="ClickToUpload:" destination="J6y-Os-fHK" eventType="touchUpInside" id="A2S-di-ReV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="File Upload" id="QWK-Pq-4eM">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="1iy-GW-anV"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnToUpload" destination="Kjk-9A-dCw" id="pyx-D0-L2O"/>
+                        <outlet property="menuBtn" destination="1iy-GW-anV" id="7dM-fl-ZnY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKL-kW-48k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1171" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yng-hX-93K">
@@ -487,7 +519,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mt-T7-5T2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1637" y="33"/>
+            <point key="canvasLocation" x="-701" y="105"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d62-Se-nqS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ons-nA-8hH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NaJ-bF-ikP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="J6y-Os-fHK" kind="relationship" relationship="rootViewController" id="Bj4-sY-hBq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o4z-rO-3JY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1631" y="94"/>
         </scene>
     </scenes>
     <resources>

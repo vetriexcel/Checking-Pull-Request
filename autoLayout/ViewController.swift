@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         dataValue.append("Map page");
         dataValue.append("Web view");
         dataValue.append("Zoom Cell");
+        dataValue.append("File Upload");
 
         menuItems.tableFooterView = UIView();
         
@@ -83,6 +84,9 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
             break;
         case 6:
             performSegueWithIdentifier("ZoomCells", sender: nil);
+            break;
+        case 7:
+            performSegueWithIdentifier("FileUpload", sender: nil);
             break;
             
         default: break

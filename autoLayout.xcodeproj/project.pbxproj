@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052BE7D0E48933EA5207E4CA /* Pods_autoLayoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448E150B0F60CCFD05274E2F /* Pods_autoLayoutTests.framework */; };
 		0F049F6F1D1266BD0020EDC2 /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F049F6E1D1266BD0020EDC2 /* menuIcon.png */; };
 		0F049F711D1267370020EDC2 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F049F701D1267370020EDC2 /* menu.png */; };
 		0F049F741D1285C70020EDC2 /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F049F721D1285C70020EDC2 /* PopoverTableViewController.swift */; };
@@ -25,6 +26,12 @@
 		0F48935E1D1C094700855AE3 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F48935B1D1C094700855AE3 /* delete.png */; };
 		0F48935F1D1C094700855AE3 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F48935C1D1C094700855AE3 /* edit.png */; };
 		0F4893601D1C094700855AE3 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F48935D1D1C094700855AE3 /* save.png */; };
+		0F60CCD01D25631B00CD1FB4 /* ADALiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F60CCCC1D25631B00CD1FB4 /* ADALiOS.framework */; };
+		0F60CCD11D25631B00CD1FB4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F60CCCD1D25631B00CD1FB4 /* Alamofire.framework */; };
+		0F60CCD21D25631B00CD1FB4 /* OneDriveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F60CCCE1D25631B00CD1FB4 /* OneDriveSDK.framework */; };
+		0F60CCD31D25631B00CD1FB4 /* SwiftyDropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F60CCCF1D25631B00CD1FB4 /* SwiftyDropbox.framework */; };
+		0F60CCD41D25639700CD1FB4 /* SwiftyDropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F60CCCF1D25631B00CD1FB4 /* SwiftyDropbox.framework */; };
+		0F60CCD51D25639700CD1FB4 /* SwiftyDropbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F60CCCF1D25631B00CD1FB4 /* SwiftyDropbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0FCA71381D224E0300D8A685 /* dragCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA71361D224E0300D8A685 /* dragCollectionViewCell.swift */; };
 		0FCA71391D224E0300D8A685 /* dragCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA71371D224E0300D8A685 /* dragCollectionViewCell.xib */; };
 		0FCA713B1D228C1F00D8A685 /* ZoomingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA713A1D228C1F00D8A685 /* ZoomingCell.swift */; };
@@ -43,6 +50,9 @@
 		0FF718F91D1D3D4700790622 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FF718F81D1D3D4700790622 /* launch.jpg */; };
 		0FF718FB1D1D49AB00790622 /* webviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF718FA1D1D49AB00790622 /* webviewViewController.swift */; };
 		0FF718FD1D1D49B600790622 /* MapviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF718FC1D1D49B600790622 /* MapviewViewController.swift */; };
+		0FFFA3BD1D2534C800C0C4FF /* FileUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFA3BC1D2534C800C0C4FF /* FileUploadViewController.swift */; };
+		1C26C506FB8555ACEF7F66DF /* Pods_autoLayoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B31548EFE291E06525508A /* Pods_autoLayoutUITests.framework */; };
+		D1E4CB025AE1047081CDA83E /* Pods_autoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E753758CEA43EC57903EAEEE /* Pods_autoLayout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +71,20 @@
 			remoteInfo = autoLayout;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F60CCD61D25639700CD1FB4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F60CCD51D25639700CD1FB4 /* SwiftyDropbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0F049F6E1D1266BD0020EDC2 /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuIcon.png; sourceTree = "<group>"; };
@@ -88,6 +112,10 @@
 		0F48935B1D1C094700855AE3 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		0F48935C1D1C094700855AE3 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
 		0F48935D1D1C094700855AE3 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		0F60CCCC1D25631B00CD1FB4 /* ADALiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADALiOS.framework; path = "Pods/../build/Debug-iphoneos/ADALiOS/ADALiOS.framework"; sourceTree = "<group>"; };
+		0F60CCCD1D25631B00CD1FB4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		0F60CCCE1D25631B00CD1FB4 /* OneDriveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneDriveSDK.framework; path = "Pods/../build/Debug-iphoneos/OneDriveSDK/OneDriveSDK.framework"; sourceTree = "<group>"; };
+		0F60CCCF1D25631B00CD1FB4 /* SwiftyDropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyDropbox.framework; path = "Pods/../build/Debug-iphoneos/SwiftyDropbox/SwiftyDropbox.framework"; sourceTree = "<group>"; };
 		0FCA71361D224E0300D8A685 /* dragCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragCollectionViewCell.swift; sourceTree = "<group>"; };
 		0FCA71371D224E0300D8A685 /* dragCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dragCollectionViewCell.xib; sourceTree = "<group>"; };
 		0FCA713A1D228C1F00D8A685 /* ZoomingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomingCell.swift; path = ../ZoomingCell.swift; sourceTree = "<group>"; };
@@ -114,6 +142,16 @@
 		0FF718F81D1D3D4700790622 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
 		0FF718FA1D1D49AB00790622 /* webviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = webviewViewController.swift; path = ../webviewViewController.swift; sourceTree = "<group>"; };
 		0FF718FC1D1D49B600790622 /* MapviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapviewViewController.swift; path = ../MapviewViewController.swift; sourceTree = "<group>"; };
+		0FFFA3BC1D2534C800C0C4FF /* FileUploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileUploadViewController.swift; path = ../FileUploadViewController.swift; sourceTree = "<group>"; };
+		110DEB1E4BAA0714F13593BE /* Pods-autoLayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoLayoutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoLayoutUITests/Pods-autoLayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15B31548EFE291E06525508A /* Pods_autoLayoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoLayoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABD9F3D880BDFFC72265023 /* Pods-autoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoLayout/Pods-autoLayout.release.xcconfig"; sourceTree = "<group>"; };
+		448E150B0F60CCFD05274E2F /* Pods_autoLayoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoLayoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8129351FDD48CFA21EFDF84A /* Pods-autoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoLayout/Pods-autoLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		88CB85F4624FDA357E71AC42 /* Pods-autoLayoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoLayoutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoLayoutTests/Pods-autoLayoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E9D70D6D0BD401A18760A2 /* Pods-autoLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoLayoutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoLayoutUITests/Pods-autoLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D35823E9B9954285EED20884 /* Pods-autoLayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoLayoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoLayoutTests/Pods-autoLayoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		E753758CEA43EC57903EAEEE /* Pods_autoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +159,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F60CCD01D25631B00CD1FB4 /* ADALiOS.framework in Frameworks */,
+				0F60CCD41D25639700CD1FB4 /* SwiftyDropbox.framework in Frameworks */,
+				0F60CCD11D25631B00CD1FB4 /* Alamofire.framework in Frameworks */,
+				0F60CCD21D25631B00CD1FB4 /* OneDriveSDK.framework in Frameworks */,
+				0F60CCD31D25631B00CD1FB4 /* SwiftyDropbox.framework in Frameworks */,
+				D1E4CB025AE1047081CDA83E /* Pods_autoLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052BE7D0E48933EA5207E4CA /* Pods_autoLayoutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C26C506FB8555ACEF7F66DF /* Pods_autoLayoutUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +228,8 @@
 				0FEF7BC11D11522F0023700F /* autoLayoutTests */,
 				0FEF7BCC1D11522F0023700F /* autoLayoutUITests */,
 				0FEF7BAB1D11522F0023700F /* Products */,
+				7F0F384EE86415B63975A72C /* Pods */,
+				FFCAA7BD04563D3FDB2C28C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +256,7 @@
 				0FF718FC1D1D49B600790622 /* MapviewViewController.swift */,
 				0FF718FA1D1D49AB00790622 /* webviewViewController.swift */,
 				0FCA713A1D228C1F00D8A685 /* ZoomingCell.swift */,
+				0FFFA3BC1D2534C800C0C4FF /* FileUploadViewController.swift */,
 				0FEF7BB11D11522F0023700F /* Main.storyboard */,
 				0FEF7BB41D11522F0023700F /* Assets.xcassets */,
 				0FEF7BB61D11522F0023700F /* LaunchScreen.storyboard */,
@@ -246,6 +295,33 @@
 			path = SWRevealViewController;
 			sourceTree = "<group>";
 		};
+		7F0F384EE86415B63975A72C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8129351FDD48CFA21EFDF84A /* Pods-autoLayout.debug.xcconfig */,
+				3ABD9F3D880BDFFC72265023 /* Pods-autoLayout.release.xcconfig */,
+				88CB85F4624FDA357E71AC42 /* Pods-autoLayoutTests.debug.xcconfig */,
+				D35823E9B9954285EED20884 /* Pods-autoLayoutTests.release.xcconfig */,
+				110DEB1E4BAA0714F13593BE /* Pods-autoLayoutUITests.debug.xcconfig */,
+				B3E9D70D6D0BD401A18760A2 /* Pods-autoLayoutUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFCAA7BD04563D3FDB2C28C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F60CCCC1D25631B00CD1FB4 /* ADALiOS.framework */,
+				0F60CCCD1D25631B00CD1FB4 /* Alamofire.framework */,
+				0F60CCCE1D25631B00CD1FB4 /* OneDriveSDK.framework */,
+				0F60CCCF1D25631B00CD1FB4 /* SwiftyDropbox.framework */,
+				E753758CEA43EC57903EAEEE /* Pods_autoLayout.framework */,
+				448E150B0F60CCFD05274E2F /* Pods_autoLayoutTests.framework */,
+				15B31548EFE291E06525508A /* Pods_autoLayoutUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +329,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEF7BD21D11522F0023700F /* Build configuration list for PBXNativeTarget "autoLayout" */;
 			buildPhases = (
+				411B284E1AE2C0B41C494585 /* [CP] Check Pods Manifest.lock */,
 				0FEF7BA61D11522F0023700F /* Sources */,
 				0FEF7BA71D11522F0023700F /* Frameworks */,
 				0FEF7BA81D11522F0023700F /* Resources */,
+				1F9D6780E8ACA4BEB2CBBF82 /* [CP] Embed Pods Frameworks */,
+				1580CDC0B53CA4B7228FB481 /* [CP] Copy Pods Resources */,
+				0F60CCD61D25639700CD1FB4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,9 +350,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEF7BD51D11522F0023700F /* Build configuration list for PBXNativeTarget "autoLayoutTests" */;
 			buildPhases = (
+				B343482E927DDB61A784672A /* [CP] Check Pods Manifest.lock */,
 				0FEF7BBA1D11522F0023700F /* Sources */,
 				0FEF7BBB1D11522F0023700F /* Frameworks */,
 				0FEF7BBC1D11522F0023700F /* Resources */,
+				143B58CEAB3E4B4238EB158A /* [CP] Embed Pods Frameworks */,
+				77599C6FF58E9CC85A24F5C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,9 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEF7BD81D11522F0023700F /* Build configuration list for PBXNativeTarget "autoLayoutUITests" */;
 			buildPhases = (
+				76F9F23FC723F3970CA5E11A /* [CP] Check Pods Manifest.lock */,
 				0FEF7BC51D11522F0023700F /* Sources */,
 				0FEF7BC61D11522F0023700F /* Frameworks */,
 				0FEF7BC71D11522F0023700F /* Resources */,
+				4A64317DA099A4AC7D9B092B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,6 +467,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		143B58CEAB3E4B4238EB158A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoLayoutTests/Pods-autoLayoutTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1580CDC0B53CA4B7228FB481 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoLayout/Pods-autoLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F9D6780E8ACA4BEB2CBBF82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoLayout/Pods-autoLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		411B284E1AE2C0B41C494585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A64317DA099A4AC7D9B092B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoLayoutUITests/Pods-autoLayoutUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F9F23FC723F3970CA5E11A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77599C6FF58E9CC85A24F5C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoLayoutTests/Pods-autoLayoutTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B343482E927DDB61A784672A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FEF7BA61D11522F0023700F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -405,6 +613,7 @@
 				0F049F871D12B4760020EDC2 /* AFHTTPSessionManager.m in Sources */,
 				0FEF7BE61D117AE70023700F /* SWRevealViewController.m in Sources */,
 				0F049F881D12B4760020EDC2 /* AFNetworkReachabilityManager.m in Sources */,
+				0FFFA3BD1D2534C800C0C4FF /* FileUploadViewController.swift in Sources */,
 				0F049F8B1D12B4760020EDC2 /* AFURLResponseSerialization.m in Sources */,
 				0F049F911D12D8140020EDC2 /* tableCustomCell.swift in Sources */,
 				0FEF7BAE1D11522F0023700F /* AppDelegate.swift in Sources */,
@@ -550,10 +759,18 @@
 		};
 		0FEF7BD31D11522F0023700F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8129351FDD48CFA21EFDF84A /* Pods-autoLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ADALiOS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/OneDriveSDK",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyDropbox",
+				);
 				INFOPLIST_FILE = autoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.excel.test.autoLayout;
@@ -565,10 +782,18 @@
 		};
 		0FEF7BD41D11522F0023700F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABD9F3D880BDFFC72265023 /* Pods-autoLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ADALiOS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/OneDriveSDK",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyDropbox",
+				);
 				INFOPLIST_FILE = autoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.excel.test.autoLayout;
@@ -579,6 +804,7 @@
 		};
 		0FEF7BD61D11522F0023700F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CB85F4624FDA357E71AC42 /* Pods-autoLayoutTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = autoLayoutTests/Info.plist;
@@ -591,6 +817,7 @@
 		};
 		0FEF7BD71D11522F0023700F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35823E9B9954285EED20884 /* Pods-autoLayoutTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = autoLayoutTests/Info.plist;
@@ -603,6 +830,7 @@
 		};
 		0FEF7BD91D11522F0023700F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110DEB1E4BAA0714F13593BE /* Pods-autoLayoutUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = autoLayoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -614,6 +842,7 @@
 		};
 		0FEF7BDA1D11522F0023700F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E9D70D6D0BD401A18760A2 /* Pods-autoLayoutUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = autoLayoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
