@@ -24,9 +24,11 @@ class webviewViewController: UIViewController, UIWebViewDelegate {
             menuBtn.target = self.revealViewController();
             menuBtn.action = #selector(SWRevealViewController.revealToggle(_:));
             
+            self.revealViewController().panGestureRecognizer().enabled = false;
+
            // self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
         }
         
         let url = NSURL(string: "www.apple.com");

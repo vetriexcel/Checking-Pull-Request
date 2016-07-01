@@ -27,9 +27,11 @@ class thirdClass: UIViewController, UITableViewDelegate, UITableViewDataSource {
             menuBtn.target = self.revealViewController();
             menuBtn.action = #selector(SWRevealViewController.revealToggle(_:));
             
+            self.revealViewController().panGestureRecognizer().enabled = false;
+
            // self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
             let selectedIndexvalue = UILabel(frame: CGRectMake(20,50,300,40));
             selectedIndexvalue.center = CGPointMake(160, 284);

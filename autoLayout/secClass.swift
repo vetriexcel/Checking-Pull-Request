@@ -48,8 +48,10 @@ class secClass: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             meuBtn.target = self.revealViewController();
             meuBtn.action = #selector(SWRevealViewController.revealToggle(_:));
             
+            self.revealViewController().panGestureRecognizer().enabled = false;
+
           //  self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
         }
 

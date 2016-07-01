@@ -1,0 +1,40 @@
+PODS:
+  - ADALiOS (1.2.7)
+  - Alamofire (3.4.0)
+  - Base32 (1.1.2)
+  - OneDriveSDK (1.2.0):
+    - OneDriveSDK/Auth (= 1.2.0)
+    - OneDriveSDK/Common (= 1.2.0)
+    - OneDriveSDK/Extensions (= 1.2.0)
+    - OneDriveSDK/Implementations (= 1.2.0)
+    - OneDriveSDK/OneDriveCoreSDK (= 1.2.0)
+  - OneDriveSDK/Auth (1.2.0):
+    - ADALiOS (~> 1.2)
+    - Base32 (~> 1.1)
+    - OneDriveSDK/Common
+  - OneDriveSDK/Common (1.2.0)
+  - OneDriveSDK/Extensions (1.2.0):
+    - OneDriveSDK/Auth
+    - OneDriveSDK/Implementations
+    - OneDriveSDK/OneDriveCoreSDK
+  - OneDriveSDK/Implementations (1.2.0):
+    - OneDriveSDK/Common
+  - OneDriveSDK/OneDriveCoreSDK (1.2.0):
+    - OneDriveSDK/Common
+  - SwiftyDropbox (3.0.0):
+    - Alamofire (~> 3.1)
+
+DEPENDENCIES:
+  - OneDriveSDK
+  - SwiftyDropbox
+
+SPEC CHECKSUMS:
+  ADALiOS: 6b59a796c6a431a5038cfc979751fcaea2144371
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Base32: 163c298644d184e89ca4e00a996bad6bf5166390
+  OneDriveSDK: d788984c0d914b1cb942b1cfaf4159aeb1c799b0
+  SwiftyDropbox: e0d4aa3166082ec07ed942e94edb8c732b3376e4
+
+PODFILE CHECKSUM: cd295eb0215588f9b5726422cd24a2f096a92e27
+
+COCOAPODS: 1.0.1

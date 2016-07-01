@@ -23,7 +23,9 @@ class homePageViewController: UIViewController {
             homeSlide.target = self.revealViewController();
             homeSlide.action = #selector(SWRevealViewController.revealToggle(_:));
             
-            self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
+            self.revealViewController().panGestureRecognizer().enabled = false;
+
+            //self.view.removeGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
           //  self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer());
             
